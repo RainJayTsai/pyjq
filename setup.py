@@ -21,7 +21,7 @@ onig_source_path = join(dependencies_dir_path, "onig-5.9.6")
 
 jq_tarball_path = join(dependencies_dir_path, "jq-1.6.tar.gz")
 jq_install_path = join(dependencies_dir_path, "jq_install")
-jq_source_path = join(dependencies_dir_path, "jq-jq-1.6")
+jq_source_path = join(dependencies_dir_path, "jq-1.6")
 
 
 class build_ext(_build_ext):
